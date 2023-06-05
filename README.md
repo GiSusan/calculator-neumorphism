@@ -1,4 +1,4 @@
-# Calculator Project
+# Calculator with Neumorphism
 
 This is a simple calculator project implemented using JavaScript. It allows users to perform basic arithmetic calculations such as addition, subtraction, multiplication, and division.
 
