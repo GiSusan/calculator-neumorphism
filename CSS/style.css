@@ -1,0 +1,98 @@
+html {
+    font-size: 70%;
+    box-sizing: border-box;
+    background: #765675;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.calculator {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    border-radius: 10px;
+    background: #765675;
+    box-shadow: inset -5px 5px 13px #2f222f,
+                inset 5px -5px 13px #bd8abb;
+}
+
+.calculator-screen {
+    width: 100%;
+    font-size: 5rem;
+    height: 80px;
+    border: none;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #765675;
+    box-shadow: inset -5px 5px 13px #2f222f,
+            inset 5px -5px 13px #bd8abb;
+}
+
+button {
+    height: 70px;
+    font-size: 3.2rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    background: linear-gradient(225deg, #6a4d69, #7e5c7d);
+    box-shadow:  -5px 5px 33px #2f222f,
+                 5px -5px 33px #bd8abb;
+}
+
+button:hover {
+    border-radius: 20px;
+    color: white;
+    background: #765675;
+    box-shadow: inset -5px 5px 13px #2f222f,
+                inset 5px -5px 13px #bd8abb;
+}
+
+.operator {
+    color: rgb(38, 250, 239);
+    border-radius: 50px;
+    background: linear-gradient(225deg, #7e5c7d, #6a4d69);
+    box-shadow:  -5px 5px 33px #2f222f,
+                 5px -5px 33px #bd8abb;
+
+}
+
+.all-clear {
+    background-color: red;
+    border-color: darkslategray;
+    color: white;
+}
+
+.equal-sign {
+    color: rgb(38, 250, 239);
+    height: 100%;
+    grid-area: 2/4/6/5;
+    border-radius: 50px;
+    background: linear-gradient(225deg, #7e5c7d, #6a4d69);
+    box-shadow:  -5px 5px 33px #2f222f,
+             5px -5px 33px #bd8abb;
+}
+
+.equal-sign:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background: #765675;
+    box-shadow: inset -5px 5px 13px #2f222f,
+                inset 5px -5px 13px #bd8abb;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px
+}
