@@ -12,6 +12,12 @@ This is a simple calculator project implemented using JavaScript. It allows user
 
 - **Clearing**: The calculator provides an all-clear (AC) button to reset the calculator to its initial state.
 
+
+## Preview
+
+Preview the calculator project [here](https://neumorphism-calculator-amber.vercel.app/).
+
+
 ## Usage
 
 To use the calculator, follow these steps:
